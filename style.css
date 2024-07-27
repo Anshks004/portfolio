@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar {
+    display: inline-block;
+    height : 70px;
+    width :  100% ;
+    padding : 26px; 
+    font-family :Arial, Helvetica, sans-serif;
+    position:fixed;
+    background-color:white;
+    z-index: 5;
+}
+#navbar b::before {
+    content: "\25A0"; /* Unicode character for filled square */
+    color:#1B5E20; /* Color of the bullet */
+    font-size: 40px;/* Size of the bullet */
+}
+#navbar a{
+    text-decoration :none;
+    color:black;
+}
+#avbar a:hover{
+    color:#00695C;
+}
+.info {
+    margin-left: 43.5%;
+    width :26%;
+    display : inline-flex;
+    font-size:16px;
+    justify-content:space-around;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;    
+}
+#deco {  
+    display : inline-block;
+    margin-top:130px;
+    height : 850px;
+    width :600px;
+    background-color:#80DEEA;
+}
+#buttons{
+    position:absolute;
+    top:450px;
+    left:680px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    display: inline-flex;
+    margin-left: 40px;
+    width: 270px;
+    height:50px;
+    justify-content: space-between;
+}
+#button1{
+    cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0097A7;
+    color:white;
+    border:1.5px solid #0097A7;
+    border-radius: 30px;
+    height:35px;
+    width:130px;
+    transition:all;
+    transition-duration:1s;
+}
+#button2{
+    cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    border:1.5px solid;
+    border-radius: 30px;
+    height:35px;
+    width:130px;
+    transition:all;
+    transition-duration:1s;
+}
+#button1:hover{
+    color:black;
+    background-color:white;
+    border:1.5px bold #0097A7;
+    transition:ease-in-out 0.3s;
+    transform:scale(1.1);
+    transition-duration:0.3s;
+}
+#button2:hover{
+    color:white;
+    background-color:#0097A7;
+    border:1.5px bold #0097A7;
+    transition:ease-in-out 0.3s;
+    transform:scale(1.1);
+    transition-duration:0.3s;
+}   
+#intro { 
+    z-index: -3;
+    position:absolute;
+    left:700px;
+    top:210px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+
+}
+#me{
+    width: 450px;
+    text-align: left;
+    font-size:17px;
+    line-height: 0.9cm;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#profile {
+    z-index: 1;
+    display : inline-block;
+    height : 550px;
+    width :370px;
+    margin:150px 0px 0px 290px;
+    background-color:#4DD0E1;
+    box-shadow:-15px 12px 55px 0.1px rgba(0, 0, 0, 0.5);
+}
+#image {
+    
+    padding-top : 50px;
+    text-align : center;
+    text-transform: uppercase;
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#00695C; 
+   
+}
+.image-photo {
+    background:url(images/user.jpeg) center;
+    background-size:cover;
+    height: 11rem;
+     width : 10.5rem;
+    border-radius:50%;
+    margin-left: 100px;
+}
+hr {
+    margin-left:38%;
+    height: 2px;
+    width : 90px;
+    background-color :#00ACC1;
+    border : 1px solid #00ACC1;
+    font-weight : bolder; 
+}
+#profile2 {
+    display:inline-flex;
+    align-items: center;
+    background-color:white;
+    width :100%;
+    height :10%;
+}
+#profile3{
+    margin-left:25%;
+    display:inline-flex;
+    align-items: center;
+    width:50%;
+    justify-content: space-around;
+}
+#footer {
+    height: 75px;    
+    width: 100%;
+    display:inline-flex;
+    padding:30px;
+}
+#fin {
+    margin-left:27%;
+    width:60%;
+    display:inline-flex;
+    justify-content:space-around;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 4px;
+    text-align:center;
+    align-items: center;
+}
+.logo {
+    display:inline-flex;
+    flex-direction:row;
+    width:130%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+h1{
+    font-size:110px;
+    font-weight:bolder;
+    margin-bottom: 0px;
+}
+#navbar a {
+    text-decoration :none;
+    color:black;
+}
+#navbar a:hover{
+    color:aqua;
+}
+.link:hover{
+    color:aqua;
+    transform:scale(1.1);
+    transition-duration:0.4s ;
+}
+.link{
+    transition-duration:0.4s ;
+
+}
